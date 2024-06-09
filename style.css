@@ -1,0 +1,53 @@
+* {
+    color: rgb(22, 22, 22);
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(22, 22, 22);
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    filter: blur(2px);
+    width: 80%;
+    height: 70%;
+}
+
+h1 {
+    position: absolute;
+    color: rgb(22, 22, 22);
+    left: 12%;
+    top: 20%;
+    font-size: 50px;
+}
+
+p {
+    position: absolute;
+    color: rgb(22, 22, 22);
+    font-size: 25px;
+    left: 12%;
+    top: 30%;
+}
+
+.invitebot {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.invitebot button {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background: rgb(0, 174, 255);
+    border: 0;
+}
